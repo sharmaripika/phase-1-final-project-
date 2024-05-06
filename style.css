@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url("https://i.pinimg.com/564x/f0/0c/0e/f00c0eac88973a37da8b57a9e0d0e519.jpg") ;
+    background-size: cover;
+    background-position: top; /* Position the background image at the top */
+    background-color:rgb(0, 0, 0);
+    height: 100vh; /* Make the background cover the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Set text color to white for better visibility */
+    overflow-y: auto; 
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 for semi-transparent) */
+    border-radius: 10px;
+}
+
+.header {
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Place the header at the top of the viewport */
+    left: 0;
+    right: 0;
+    text-align: center; /* Center align content inside the header */
+    padding: 20px 0; /* Add padding to top and bottom of the header */
+    width: 100%; /* Set full width */
+    z-index: 1000; /* Ensure the header appears above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle shadow to the header */
+    
+}
+
+
+h1 {
+    font-size: 75px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    color:burlywood
+}
+
+.intro {
+    font-size: 22px; /* Adjust font size to make it smaller */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 5px; /* Reduce top margin to bring it closer to h1 */
+    margin-bottom: 5px; /* Reduce bottom margin for compact spacing */
+}
+
+.menu-container {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+}
+
+.menu-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.search-menu {
+    margin-bottom: 20px;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: green;
+}
+
+.like-btn {
+    margin-right: 10px;
+}
+.menu-list {
+    max-height: 300px; /* Set a maximum height for the menu list */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds the height */
+    padding: 10px; /* Add padding to the menu list */
+}
+
+
+h5{
+    text-align: end;
+    color: antiquewhite;
+}
+.heart-icon {
+    font-size: 24px; /* Adjust size as needed */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+

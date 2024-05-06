@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="header" id ="heading">
+        <h1>Vegan Recipes </h1>
+        <p class="intro">Looking for healthy plant-based recipes? </p>
+    </div>
+  
+
+    <div class="menu-container" id="searchMenu">
+        <h2>Search Menu</h2>
+        <div class="search-menu">
+            <input type="text" id="searchInput" placeholder="Search recipes...">
+            <button id="searchButton">Search</button>
+        </div>
+        <ul class="menu-list" id="menuList">
+            <!--  content will be added here creating li element-->
+        </ul>
+    </div>
+
+    <div class="menu-container" id="addMenu">
+        <h2>Add Menu</h2>
+        <input type="text" id="newMenuItem" placeholder="Enter new recipe name...">
+        <button onclick="addMenu()">Add</button>
+    </div>
+
+    <div class="menu-container" id="favoriteMenu">
+        <h2>Favorite Menu</h2>
+        <h5>**Remove the recipe item on double-click</h3>
+        <ul class="menu-list" id="favoriteList">
+            <!--  content will be added here -->
+        </ul>
+        
+    
+    <script src="index.js" defer></script>
+</body>
+</html>
