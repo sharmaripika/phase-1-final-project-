@@ -3270,6 +3270,19 @@
         "pepper"
       ],
       "instructions": "1. Cook pasta according to package instructions. 2. In a pan, sauté mixed vegetables in olive oil and garlic. 3. Season with salt and pepper. 4. Combine cooked pasta with sautéed vegetables. Serve hot."
+    },
+    {
+      "id": "1",
+      "name": "Vegan Pasta Primavera",
+      "ingredients": [
+        "pasta",
+        "mixed vegetables",
+        "olive oil",
+        "garlic",
+        "salt",
+        "pepper"
+      ],
+      "instructions": "1. Cook pasta according to package instructions. 2. In a pan, sauté mixed vegetables in olive oil and garlic. 3. Season with salt and pepper. 4. Combine cooked pasta with sautéed vegetables. Serve hot."
     }
   ]
 }

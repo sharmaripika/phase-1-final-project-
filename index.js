@@ -104,7 +104,7 @@ function moveRecipeToFavorites(listItem, recipe) {
     });
     listItemCopy.appendChild(removeButton);
     
-   // Create Heart Button
+   // Create "Heart" Button
    const heartButton = document.createElement('button');
    heartButton.textContent = '\u2661'; // Start with white heart
    heartButton.addEventListener('click', toggle);
